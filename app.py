@@ -17,9 +17,9 @@ def get_weather_data():
         'appid' : request.form.get("appid"),
         'units' : request.form.get("units")
     }
-    response = requests.get(url, params = param)
-    city = data['name']
+    response = requests.get(url, params = param)   
     data = response.json()
+    city = data['name']
     return f"data : {data}, city : {city}"
 
 
