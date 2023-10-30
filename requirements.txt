@@ -1,0 +1,10 @@
+# Used for bulk installation in one go
+# Flask==1.1.2
+# this is versioning ; it installs only the selected version of the module
+# used in real life applications and enterprises
+
+# if you dont specify the version, it will automatically install the latest version 
+
+Flask
+gunicorn
+requests
